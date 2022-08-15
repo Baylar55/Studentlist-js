@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./script.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="student-content">
+        <h1 class="student-content__heading">Student's Dashboard</h1>
+        <form id="student-form">
+          <div class="student-content__form">
+            <input type="text" placeholder="your name" id="name" />
+            <input type="text" placeholder="your surname" id="surname" />
+            <input type="text" placeholder="your birthday" id="birthday" />
+            <input type="text" placeholder="your age" id="age" />
+          </div>
+          <div class="student-content__radio">
+            <div>
+              <input type="radio" id="genderF" name="gender" checked />
+              <label for="genderF">Female</label>
+            </div>
+            <div>
+              <input type="radio" id="genderM" name="gender" />
+              <label for="genderM">Male</label>
+            </div>
+          </div>
+          <button id="add" class="student-content__add-btn">Add student</button>
+        </form>
+      </div>
+      <div class="student-table" id="stable">
+        <table border="1">
+          <thead>
+            <tr>
+              <td>#id</td>
+              <td>Name</td>
+              <td>Surname</td>
+              <td>Birthday</td>
+              <td>Age</td>
+              <td>Gender</td>
+              <td>Actions</td>
+            </tr>
+          </thead>
+          <tbody id="table-body">
+            <!-- <tr>
+                        <td>365</td>
+                        <td>Tural</td>
+                        <td>Ismayilov</td>
+                        <td>15.11.2001</td>
+                        <td>21</td>
+                        <td>Female</td>
+                        <td>
+                            <img src="./icons/delete.svg" alt="delete">
+                            <img src="./icons/edit.svg" alt="edit">
+                        </td>
+                    </tr> -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

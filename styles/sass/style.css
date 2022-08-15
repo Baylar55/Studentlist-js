@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.wrapper {
+  padding: 50px 20px;
+}
+
+.student-content__heading {
+  color: rgb(11, 27, 11);
+}
+.student-content form {
+  border: 1px solid rgb(11, 27, 11);
+  width: 40%;
+  margin-top: 30px;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+.student-content__form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.student-content__form input {
+  width: 48%;
+  padding: 8px 16px;
+  margin-bottom: 15px;
+}
+.student-content__form input:focus {
+  outline: 1px solid rgb(9, 245, 9);
+}
+.student-content__radio {
+  display: flex;
+  gap: 30px;
+}
+.student-content__add-btn {
+  background-color: transparent;
+  padding: 8px 16px;
+  outline: none;
+  border: 1px solid rgb(11, 27, 11);
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+table {
+  width: 80%;
+  margin-top: 50px;
+  border-collapse: collapse;
+}
+table thead {
+  font-weight: 700;
+}
+
+td {
+  padding: 2px 10px;
+}
+td img {
+  width: 30px;
+}
+td img:last-child {
+  margin-left: 20px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,45 @@
+$blackishColor: rgb(11, 27, 11);
+
+.student-content {
+    &__heading {
+        color: $blackishColor;
+    }
+
+    form {
+        border: 1px solid $blackishColor;
+        width: 40%;
+        margin-top: 30px;
+        border-radius: 10px;
+        padding: 10px 20px;
+    }
+
+    &__form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        input {
+            width: 48%;
+            padding: 8px 16px;
+            margin-bottom: 15px;
+
+            &:focus {
+                outline: 1px solid rgb(9, 245, 9);
+            }
+        }
+    }
+
+    &__radio {
+        display: flex;
+        gap: 30px;
+    }
+
+    &__add-btn {
+        background-color: transparent;
+        padding: 8px 16px;
+        outline: none;
+        border: 1px solid $blackishColor;
+        border-radius: 8px;
+        margin-top: 20px;
+    }
+}
